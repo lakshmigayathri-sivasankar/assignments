@@ -1,0 +1,1140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+@mixin samecontent {
+  margin-top: -100px;
+  margin-bottom: 95px;
+  margin-left: 330px;
+}
+@mixin content2 {
+  margin-top: -100px;
+  margin-left: 180px;
+  margin-bottom: 95px;
+}
+/*#top {
+  .nav-section {
+    .logo {
+      width: 15rem;
+      padding-left: 80px;
+      margin-left: 180px;
+    }
+
+    .navbar-toggler {
+      padding: 0px;
+    }
+    .menu {
+      font-size: 20px;
+      font-weight: 500px;
+      font-family: "Montserrat", sans-serif;
+      margin-right: 70px;
+      top: 56px;
+      ul li {
+        font-size: 15px;
+        padding: 5px;
+        a:hover {
+          font-size: 5px;
+          background: #f36157;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-fluid {
+  background-color: #012247;
+}
+.Phone {
+  text-align: right;
+  a {
+    color: rgb(5, 92, 5);
+    text-decoration: none;
+    font-size: small;
+    letter-spacing: 0px;
+    margin-right: 20px;
+  }
+}
+.Location {
+  color: white;
+  margin-left: 260px;
+  font-size: 14px;
+  line-height: 0rem;
+  a {
+    width: 125px;
+    border-radius: 10px;
+    height: 40px;
+  }
+}
+.nav {
+  img {
+    margin-left: 200px;
+    width: 224px;
+    height: 73px;
+  }
+  ul {
+    margin-top: 30px;
+    li {
+      display: inline-block;
+      margin-right: 20px;
+      a {
+        color: #e5eee5;
+        text-decoration: none;
+        font-size: small;
+        .active,
+        &:hover {
+          background: #f36157;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}
+.button {
+  background: #fafafa 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 12px;
+  width: 600px;
+  height: 50px;
+  font-size: medium;
+  text-align: left;
+}
+.services {
+  text-align: center;
+  a {
+    margin-right: 20px;
+    color: #e5eee5;
+    font-size: small;
+  }
+}
+.Ourservices {
+  margin: 20px;
+  font-size: small;
+}
+//banner section//
+.banner {
+  width: 100%;
+  height: 400px;
+}
+.Category {
+  border-radius: 45px;
+  margin-left: 300px;
+  height: 100px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  margin-top: -400px;
+  overflow: overlay;
+  h5 {
+    font-weight: 900;
+    margin-top: 40px;
+  }
+  .tools {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 1px solid rgb(245, 226, 59);
+    align-items: center;
+    display: inherit;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  img {
+    padding: 12px;
+  }
+}
+.offers {
+  margin-top: 20px;
+  margin-left: 200px;
+  .low {
+    margin-left: 80px;
+  }
+  .cardspace {
+  }
+  h3 {
+    margin-left: 80px;
+  }
+}
+//card section//
+.card {
+  width: 220px;
+  height: 200px;
+  margin: 0px -100px 0px 80px;
+  position: relative;
+  margin-right: 20px;
+  .card-body {
+    .card-title {
+      font-size: 14px;
+      font-weight: 900;
+      text-align: center;
+    }
+    .card-text {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}
+//cleaning section//
+h2 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.content1 {
+  background-color: rgb(209, 206, 206);
+  margin-top: 100px;
+}
+.Cleaning {
+  h5 {
+    margin-left: 50px;
+  }
+  img {
+    width: 180px;
+    height: 100px;
+    margin-left: 50px;
+  }
+  span {
+    margin-top: -59px;
+    margin-left: 160px;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 12px;
+    opacity: 0.5;
+    background-color: yellow;
+  }
+  p {
+    font-size: 11px;
+    text-align: left;
+    margin-left: 50px;
+  }
+}
+.more {
+  margin-bottom: 50px;
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+  margin-left: 580px;
+  background-color: yellow;
+}
+//
+.man {
+  .circles {
+    margin-top: 100px;
+    margin-left: 210px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    img {
+      width: 50px;
+    }
+  }
+}
+.register {
+  background-color: #012247;
+  h4 {
+    padding-bottom: 20px;
+    @include samecontent();
+  }
+  p {
+    font-size: small;
+    @include samecontent();
+    line-height: 1.5;
+  }
+}
+.coranavirus {
+  background-color: yellow;
+  .circles {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    img {
+      width: 80px;
+    }
+  }
+  h4 {
+    text-align: left;
+    @include content2();
+    padding-bottom: 20px;
+  }
+  p {
+    text-align: left;
+    @include content2();
+    font-size: small;
+    line-height: 1.5;
+  }
+}
+//clock section//
+.container {
+  text-align: center;
+  margin-left: 220px;
+}
+.heading {
+  margin: 100px 0px 50px -200px;
+}
+span {
+  color: yellow;
+}
+.circle {
+  border-radius: 150px;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+.clockimage {
+  h5 {
+    font-weight: 900;
+  }
+  p {
+    font-size: 11px;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+  }
+}
+
+.maintenance {
+  margin-top: 200px;
+  margin-bottom: -200px;
+  h5 {
+    margin-left: 70px;
+  }
+}
+.appstore {
+  img {
+    margin-left: -10px;
+    margin-bottom: -480px;
+  }
+}
+.gpay {
+  img {
+    margin-left: -120px;
+    margin-bottom: -480px;
+  }
+}
+.app1 {
+  align-items: right;
+  img {
+    width: 700px;
+    height: 500px;
+  }
+}
+//footer section//
+.footer {
+  margin-left: 200px;
+}
+.fix {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  p {
+    color: white;
+    font-size: 11px;
+    i {
+      color: rgb(1, 48, 1);
+      font-size: 14px;
+    }
+  }
+  h6 {
+    color: white;
+  }
+  ul {
+    list-style: none;
+    li {
+      display: list-item;
+      a {
+        margin-left: -30px;
+        color: rgb(4, 65, 4);
+        text-decoration: none;
+        font-size: small;
+        transition: 0.2s;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .Phone {
+    a {
+      color: rgb(21, 214, 21);
+      font-size: 11px;
+      margin-right: 8px;
+    }
+  }
+  .nav {
+    img {
+      margin-left: 90px;
+      width: 124px;
+      height: 50px;
+    }
+    ul {
+      margin-top: -9px;
+      li {
+        margin-right: -1px;
+        a {
+          color: #e5eee5;
+          text-decoration: none;
+          font-size: 9px;
+        }
+      }
+    }
+  }
+  .login {
+    margin-left: 100px;
+  }
+  .Location {
+    color: rgb(243, 152, 247);
+    margin-left: 68px;
+    font-size: 12px;
+    button {
+      width: 190px;
+      height: 32px;
+      font-size: 12px;
+      margin-left: -60px;
+      border-radius: 12px;
+    }
+    a {
+      width: 77px;
+      border-radius: 10px;
+      height: 30px;
+      font-size: 11px;
+    }
+  }
+  .services {
+    a {
+      margin-right: 6px;
+      color: #7df77d;
+      font-size: 11px;
+    }
+  }
+  .banner {
+    height: 250px;
+  }
+  .Category {
+    margin-left: 12px;
+    height: 80px;
+    width: 300px;
+    h5 {
+      font-size: 15px;
+    }
+    .tools {
+      display: inherit;
+      height: 30px;
+      width: 30px;
+      border-radius: 100%;
+      border: 1px solid #f5e23b;
+      align-items: center;
+      display: inherit;
+      font-size: 6px;
+      margin-right: 8px;
+    }
+    img {
+      width: 30px;
+      margin-right: 10px;
+    }
+  }
+  .offers {
+    margin-left: 1px;
+    .low {
+      margin-left: 22px;
+      font-size: 11px;
+    }
+    .cardspace {
+      margin-left: -40px;
+    }
+    h3 {
+      margin-left: 100px;
+    }
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  h2 {
+    text-align: center;
+    margin-top: 99px;
+    margin-bottom: 77px;
+  }
+  .content1 {
+    background-color: rgb(250, 96, 96);
+  }
+  .Cleaning {
+    margin-left: 93px;
+    h5 {
+      margin-left: -23px;
+    }
+    img {
+      margin-left: -23px;
+    }
+    span {
+      margin-top: -55px;
+      margin-left: 90px;
+      background-color: yellow;
+    }
+    p {
+      font-size: 11px;
+      margin-left: -23px;
+    }
+  }
+  .more {
+    margin-left: 90px;
+    background-color: rgb(253, 253, 156);
+  }
+  .man {
+    .circles {
+      margin-top: 40px;
+      margin-left: 120px;
+      width: 70px;
+      height: 70px;
+      img {
+        width: 20px;
+      }
+    }
+  }
+  .register {
+    h4 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-left: 80px;
+    }
+    p {
+      margin-left: 20px;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  }
+  .coranavirus {
+    background-color: rgb(245, 245, 30);
+    .circles {
+      margin-top: 40px;
+      margin-left: 120px;
+      width: 70px;
+      height: 70px;
+      img {
+        width: 25px;
+      }
+    }
+    h4 {
+      margin-top: 20px;
+      margin-left: 80px;
+    }
+    p {
+      margin-left: 20px;
+      font-size: 14px;
+    }
+  }
+  .heading {
+    margin-left: -455px;
+  }
+  span {
+    color: rgb(255, 81, 0);
+  }
+  .circle {
+    height: 90px;
+    width: 90px;
+    margin-left: -450px;
+    background-color: rgb(0, 255, 200);
+  }
+  .clockimage {
+    h5 {
+      margin-left: -450px;
+      font-size: 16px;
+    }
+    p {
+      margin-left: -450px;
+      font-size: 13px;
+    }
+    img {
+      width: 41px;
+      height: 42px;
+    }
+  }
+  .maintenance {
+    margin-top: 100px;
+    margin-bottom: -40px;
+    h5 {
+      margin-left: 10px;
+      font-size: small;
+    }
+  }
+  .appstore {
+    img {
+      margin-left: -22px;
+      margin-bottom: -120px;
+    }
+  }
+  .gpay {
+    img {
+      margin-left: -22px;
+      margin-bottom: 50px;
+    }
+  }
+  .app1 {
+    img {
+      width: 320px;
+      height: 320px;
+    }
+  }
+  .footer {
+    margin-left: 1px;
+  }
+  .fix {
+    position: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    img {
+      width: 100px;
+      height: 50px;
+    }
+    p {
+      color: rgb(238, 165, 165);
+      float: left;
+      margin-left: -74px;
+      font-size: 10px;
+    }
+    h6 {
+      color: white;
+      font-size: 16px;
+    }
+    ul {
+      li {
+        a {
+          margin-left: -30px;
+          color: rgb(114, 1, 20);
+          text-decoration: none;
+          font-size: small;
+        }
+      }
+    }
+  }
+}
+@media only screen and (width: 375px) {
+  .nav {
+    img {
+      margin-left: 120px;
+    }
+    ul {
+      li {
+        margin-right: 7px;
+      }
+    }
+  }
+  .login {
+    margin-left: 135px;
+  }
+  .Location {
+    margin-left: 10px;
+    button {
+      width: 160px;
+      margin-left: -5px;
+    }
+    a {
+      margin-left: 120px;
+    }
+  }
+  .services {
+    a {
+      margin-right: 6px;
+      color: #7df77d;
+      font-size: 11px;
+    }
+  }
+  .Ourservices {
+    margin: 10px;
+    font-size: x-small;
+  }
+  .Category {
+    margin-left: 35px;
+    height: 80px;
+    width: 300px;
+    h5 {
+      font-size: 15px;
+    }
+    .tools {
+      height: 30px;
+      width: 30px;
+      margin-right: 8px;
+    }
+  }
+  .offers {
+    margin-left: 1px;
+    .low {
+      margin-left: 48px;
+    }
+    .cardspace {
+      margin-left: -15px;
+    }
+    h3 {
+      margin-left: 130px;
+    }
+  }
+  .Cleaning {
+    margin-left: 123px;
+    span {
+      margin-top: 68px;
+      margin-left: -73px;
+    }
+  }
+  .more {
+    margin-left: 120px;
+  }
+  .man {
+    .circles {
+      margin-left: 160px;
+    }
+  }
+  .register {
+    h4 {
+      margin-left: 120px;
+    }
+    p {
+      margin-left: 40px;
+    }
+  }
+  .coranavirus {
+    .circles {
+      margin-left: 160px;
+    }
+    h4 {
+      margin-left: 120px;
+    }
+    p {
+      margin-left: 40px;
+    }
+  }
+  .heading {
+    margin-left: -430px;
+  }
+  .maintenance {
+    h5 {
+      margin-left: 35px;
+    }
+  }
+  .appstore {
+    img {
+      margin-left: 18px;
+    }
+  }
+  .gpay {
+    img {
+      margin-left: 18px;
+    }
+  }
+  .app1 {
+    img {
+      width: 350px;
+      height: 350px;
+    }
+  }
+  .footer {
+    margin-left: 42px;
+    .fix {
+      img {
+        margin-top: -28px;
+        margin-left: 4px;
+        width: 100px;
+        height: 50px;
+      }
+      p {
+        color: #fdf1f1;
+        margin-left: -74px;
+      }
+      h6 {
+        color: rgb(43, 224, 194);
+      }
+      ul {
+        li {
+          a {
+            color: rgb(114, 88, 1);
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (width: 425px) {
+  .nav {
+    img {
+      margin-left: 150px;
+    }
+    ul {
+      li {
+        margin-right: 14px;
+      }
+    }
+  }
+  .login {
+    margin-left: 155px;
+  }
+  .Location {
+    margin-left: 20px;
+    button {
+      margin-left: -5px;
+    }
+    a {
+      margin-left: 150px;
+    }
+  }
+  .Category {
+    margin-left: 65px;
+  }
+  .offers {
+    margin-left: 1px;
+    .low {
+      margin-left: 78px;
+    }
+    .cardspace {
+      margin-left: 15px;
+    }
+    h3 {
+      margin-left: 150px;
+    }
+  }
+  .Cleaning {
+    margin-left: 153px;
+    span {
+      margin-top: 68px;
+      margin-left: -73px;
+    }
+  }
+  .more {
+    margin-left: 150px;
+  }
+  .man {
+    .circles {
+      margin-left: 180px;
+    }
+  }
+  .register {
+    h4 {
+      margin-left: 140px;
+    }
+    p {
+      margin-left: 60px;
+    }
+  }
+  .coranavirus {
+    .circles {
+      margin-left: 180px;
+    }
+    h4 {
+      margin-left: 140px;
+    }
+    p {
+      margin-left: 60px;
+    }
+  }
+  .heading {
+    margin-left: -450px;
+  }
+  .maintenance {
+    h5 {
+      margin-left: 35px;
+    }
+  }
+  .appstore {
+    img {
+      margin-left: 18px;
+    }
+  }
+  .gpay {
+    img {
+      margin-left: 18px;
+    }
+  }
+  .app1 {
+    img {
+      width: 350px;
+      height: 350px;
+    }
+  }
+  .footer {
+    margin-left: 82px;
+    .fix {
+      img {
+        margin-top: -28px;
+        margin-left: 11px;
+      }
+      p {
+        color: #fdf1f1;
+        margin-left: -74px;
+      }
+      h6 {
+        color: rgb(43, 224, 194);
+      }
+      ul {
+        li {
+          a {
+            color: rgb(14, 180, 69);
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (width: 768px) {
+  .offers {
+    margin-left: 50px;
+    .cardspace {
+      margin-left: -204px;
+    }
+    h3 {
+      margin-left: 80px;
+    }
+  }
+  //card section//
+  .card {
+    margin-left: 190px;
+  }
+  //cleaning section/
+  .Cleaning {
+    h5 {
+      margin-left: 250px;
+    }
+    img {
+      width: 80px;
+      height: 50px;
+      margin-left: 50px;
+    }
+
+    p {
+      font-size: 11px;
+      text-align: left;
+      margin-left: 50px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .Phone {
+    a {
+      color: rgb(214, 50, 21);
+      font-size: 14px;
+    }
+  }
+  .nav {
+    img {
+      margin-left: 40px;
+      width: 130px;
+      height: 40px;
+    }
+    ul {
+      margin-top: 14px;
+      li {
+        margin-right: 5px;
+        a {
+          color: #e5eeed;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .Location {
+    color: rgb(76, 151, 250);
+    margin-left: 30px;
+    font-size: 14px;
+    button {
+      width: 345px;
+      height: 40px;
+      font-size: 12px;
+      margin-left: -5px;
+    }
+    a {
+      width: 100px;
+      height: 35px;
+      font-size: 12px;
+    }
+  }
+  .services {
+    a {
+      margin-right: 5px;
+      color: #f39057;
+      font-size: 12px;
+    }
+  }
+  .banner {
+    width: 100%;
+    height: 300px;
+  }
+  .Category {
+    margin-left: 90px;
+    width: 600px;
+    .tools {
+      width: 40px;
+      height: 40px;
+      font-size: 8px;
+    }
+    img {
+      margin-right: 5px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .offers {
+    margin-top: 10px;
+    margin-left: 30px;
+    .low {
+      margin-left: 50px;
+    }
+    .cardspace {
+    }
+  }
+  .content1 {
+    background-color: rgb(250, 194, 129);
+    margin-left: -300px;
+    .Space {
+      margin-left: 350px;
+    }
+    h2 {
+      text-align: center;
+    }
+  }
+  .Cleaning {
+    margin-left: 350px;
+    h5 {
+      margin-left: -23px;
+      font-size: 18px;
+    }
+    img {
+      margin-left: -23px;
+      width: 220px;
+      height: 150px;
+    }
+    span {
+      margin-left: 125px;
+      background-color: rgb(247, 83, 211);
+    }
+    p {
+      font-size: 12px;
+      margin-left: -23px;
+    }
+  }
+  .more {
+    text-align: center;
+    background-color: yellow;
+  }
+  .man {
+    background-color: rgb(171, 130, 248);
+    .circles {
+      margin-top: 140px;
+      margin-left: 200px;
+      width: 100px;
+      height: 100px;
+      img {
+        width: 50px;
+      }
+    }
+  }
+  .register {
+    h4 {
+      margin-top: 20px;
+      margin-left: 100px;
+    }
+    p {
+      margin-left: 5px;
+      font-size: 16px;
+    }
+  }
+  .coranavirus {
+    background-color: rgb(247, 247, 151);
+    .circles {
+      margin-top: 140px;
+      margin-left: 150px;
+      width: 100px;
+      height: 100px;
+      img {
+        width: 50spx;
+      }
+    }
+    h4 {
+      margin-top: 20px;
+      margin-left: 100px;
+    }
+    p {
+      margin-left: 5px;
+      font-size: 16px;
+    }
+  }
+
+  .heading {
+    font-size: 40px;
+    margin-left: -400px;
+    .equalspace {
+      margin-right: 550px;
+    }
+  }
+  span {
+    color: rgb(248, 146, 98);
+  }
+  .circle {
+    height: 100px;
+    width: 100px;
+    margin-left: -200px;
+    background-color: #e9f1ef;
+  }
+  .clockimage {
+    h5 {
+      margin-left: -200px;
+    }
+    p {
+      margin-left: -200px;
+      font-size: 7px;
+    }
+    img {
+      width: 51px;
+      height: 52px;
+    }
+  }
+  .maintenance {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    h5 {
+      margin-left: 100px;
+    }
+  }
+  .appstore {
+    img {
+      margin-left: -32px;
+      margin-bottom: 82px;
+    }
+  }
+  .gpay {
+    img {
+      margin-left: -12px;
+      margin-bottom: 50px;
+    }
+  }
+  .app1 {
+    margin-left: 66px;
+    img {
+      width: 350px;
+      height: 320px;
+    }
+  }
+  .footer {
+    margin-left: 1px;
+  }
+  .fix p {
+    color: white;
+    font-size: 8px;
+    ul {
+      li {
+        a {
+          margin-left: -25px;
+          color: #8cf88c;
+          text-decoration: none;
+          font-size: 5px;
+        }
+      }
+    }
+  }
+}

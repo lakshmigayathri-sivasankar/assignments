@@ -1,0 +1,161 @@
+#headerA {
+  background-color: #020202;
+  height: 10px;
+  width: 70%;
+  clear: both;
+  margin: 0px auto;
+}
+
+#nav {
+  width: 70%;
+  margin: 0px auto;
+}
+
+#HeaderA {
+  height: 80px;
+  background-color: white;
+}
+
+/*img {
+  height: 80px;
+  width: 25%;
+}ul {
+  float: right;
+  margin-top: 25px;
+}li {
+  display: inline;
+  margin-right: 20px;
+}a {
+  color: #070;
+  text-decoration: none;
+  font-size: 18px;}*/
+img {
+  height: 80px;
+  width: 25%;
+}
+
+ul {
+  float: right;
+  margin-top: 25px;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: #1547e9;
+  text-decoration: none;
+}
+
+/*a {color: $text_color9;
+  text-decoration: none;
+  font-size: $myfontsize1;}*/
+#banner img {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#content1 {
+  width: 32%;
+  height: 350px;
+  background-color: green;
+  float: left;
+  margin-right: 20px;
+}
+
+#content2 {
+  width: 32%;
+  height: 350px;
+  background-color: red;
+  float: left;
+}
+
+#content3 {
+  width: 32%;
+  height: 350px;
+  background-color: maroon;
+  float: right;
+}
+
+.head {
+  color: white;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.para1 {
+  color: white;
+  margin-left: 20px;
+}
+
+.more {
+  text-decoration: none;
+  color: #020202;
+  background-color: white;
+  padding: 8px;
+  margin-left: 10px;
+}
+
+.more1 {
+  text-decoration: none;
+  color: #020202;
+  background-color: white;
+  padding: 8px;
+  margin-left: 10px;
+}
+
+#footer {
+  margin-top: 15px;
+  width: 70%;
+  height: 350px;
+  float: left;
+  background-color: #e2eaeb;
+  background-size: auto;
+}
+
+#aside {
+  margin-top: 15px;
+  width: 30%;
+  height: 50%;
+  float: right;
+  display: block;
+}
+
+#footer a {
+  margin-left: 20px;
+  color: #020202;
+  text-decoration: none;
+}
+
+#ftr {
+  width: 100%;
+  height: 60px;
+  background-color: #020202;
+  clear: both;
+}
+
+ul {
+  float: right;
+  margin-top: 25px;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  color: #1547e9;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#qw {
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */

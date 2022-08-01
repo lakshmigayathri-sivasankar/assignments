@@ -1,0 +1,160 @@
+$text_color1: rgb(2, 2, 2);
+$text_color2: rgb(98, 211, 23);
+$text_color3: green;
+$text_color4: red;
+$text_color5: maroon;
+$text_color6: white;
+$text_color7: rgb(226, 234, 235);
+$text_color8: rgb(177, 248, 227);
+$text_color9: rgb(21, 71, 233);
+$myFont: Helvetica, sans-serif;
+$myFontSize: 18px;
+$myfontsize1: 28px;
+$mywidth: 100%;
+$myWidth1: 70%;
+$mywidth2: 25%;
+$mywidth3: 32%;
+$myheight: 80px;
+$myheight1: 10px;
+$myheight2: 350px;
+$mywidth4: 30%;
+$myheight4: 50%;
+
+#headerA {
+  background-color: $text_color1;
+  height: $myheight1;
+  width: $myWidth1;
+  clear: both;
+  margin: 0px auto;
+}
+#nav {
+  width: $myWidth1;
+  margin: 0px auto;
+}
+#HeaderA {
+  height: $myheight;
+  background-color: $text_color6;
+}
+/*img {
+  height: 80px;
+  width: 25%;
+}ul {
+  float: right;
+  margin-top: 25px;
+}li {
+  display: inline;
+  margin-right: 20px;
+}a {
+  color: #070;
+  text-decoration: none;
+  font-size: 18px;}*/
+img {
+  height: 80px;
+  width: $mywidth2;
+}
+ul {
+  float: right;
+  margin-top: 25px;
+}
+li {
+  display: inline;
+  margin-right: 20px;
+}
+a {
+  font-family: Helvetica, sans-serif;
+  font-size: $myFontSize;
+  color: $text_color9;
+  text-decoration: none;
+}
+/*a {color: $text_color9;
+  text-decoration: none;
+  font-size: $myfontsize1;}*/
+#banner img {
+  height: 100%;
+  width: $mywidth;
+  padding-bottom: 20px;
+}
+#content1 {
+  width: $mywidth3;
+  height: $myheight2;
+  background-color: $text_color3;
+  float: left;
+  margin-right: 20px;
+}
+#content2 {
+  width: $mywidth3;
+  height: $myheight2;
+  background-color: $text_color4;
+  float: left;
+}
+#content3 {
+  width: $mywidth3;
+  height: $myheight2;
+  background-color: $text_color5;
+  float: right;
+}
+.head {
+  color: $text_color6;
+  margin-left: 20px;
+  font-size: $myFontSize;
+}
+.para1 {
+  color: $text_color6;
+  margin-left: 20px;
+}
+.more {
+  text-decoration: none;
+  color: $text_color1;
+  background-color: $text_color6;
+  padding: 8px;
+  margin-left: 10px;
+}
+.more1 {
+  text-decoration: none;
+  color: $text_color1;
+  background-color: $text_color6;
+  padding: 8px;
+  margin-left: 10px;
+}
+#footer {
+  margin-top: 15px;
+  width: $myWidth1;
+  height: $myheight2;
+  float: left;
+  background-color: $text_color7;
+  background-size: auto;
+}
+#aside {
+  margin-top: 15px;
+  width: $mywidth4;
+  height: $myheight4;
+  float: right;
+  display: block;
+}
+#footer a {
+  margin-left: 20px;
+  color: $text_color1;
+  text-decoration: none;
+}
+#ftr {
+  width: $mywidth;
+  height: 60px;
+  background-color: $text_color1;
+  clear: both;
+}
+ul {
+  float: right;
+  margin-top: 25px;
+}
+li {
+  display: inline;
+  margin-right: 20px;
+}
+a {
+  color: $text_color9;
+  text-decoration: none;
+  font-size: $myFontSize;
+}
+#qw {
+  background-color: black;
+}

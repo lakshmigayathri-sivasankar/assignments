@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Site</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    Not to declare like this..
+    <!-- const 123 = "Hello"; console.log("message::",123); let let = "Hi";-->
+    <p id="demo"></p>
+    <script>
+      //double quotes, Single quotes//
+      let name = "'gayu'";
+      console.log("name::", name);
+      //add//
+      let fname = "lakshmi";
+      let lname = "gayathri";
+      let fullname = fname + " || " + lname;
+      console.log("myname::", fullname);
+      let myname = "Gayathri";
+      console.log("myself::", fullname);
+      let my = "hello";
+      console.log(typeof ("mess::", my));
+      //undefined//
+      let x;
+      console.log(typeof ("value::", x));
+      let y = "4";
+      console.log(typeof ("number::", y));
+      //using dollar undescore//
+      const my_favt = "vjy";
+      console.log("favourite::", my_favt);
+      let $name = "lakshmi";
+      console.log("Name::", $name);
+      //object//
+      let $drinks = { brand: "pepsi", year: "2022", healthy: "false" };
+      console.log("people::", $drinks);
+      //number//
+      let g = 3.14;
+      console.log("value::", g);
+
+      let lgs = 20 + 4;
+      console.log("myself::", lgs);
+
+      let number = lgs + g;
+      console.log("myselfs::", number);
+
+      let num = number + 50;
+      console.log("my_self::", num);
+      //using concatenate//
+      let name1 = "Text";
+      let name2 = "area";
+      let name3 = name1 + name2;
+      let name4 = name1.concat(name3);
+      console.log("mode::", name3);
+      console.log("mode1::", name4);
+
+      const $1 = "4";
+      console.log("number::", $1);
+
+      //function//
+      function subtraction(num_1, num_2) {
+        console.log(num_1 - num_2);
+      }
+      subtraction(40, 16);
+
+      let process = function () {};
+      console.log(typeof ("function::", process));
+      // string//
+      let message = 'sample ~ "quotes" ';
+      console.log(message);
+
+      const msge = "\\this is the `backtick | backslash`";
+      console.log(msge);
+
+      let txt = "shall we calculate the length";
+      console.log("text::", txt.length);
+      let text = "123456789";
+      console.log("text::", text.length);
+      let str = ("furniture", "dinningtable");
+      console.log("string::", str.slice(7, 10));
+
+      let msg = "gay3";
+      let msg_2 = "it'smee";
+      let add = "msg" + "||" + "msg_2";
+      let add1 = msg + msg_2;
+      console.log("message::", msg + msg_2);
+      console.log("msg::", add1.length);
+      console.log("message::", add.length);
+      //Array//
+      let vegetabes = ["tomato", "potato", "brinjal"];
+      vegetabes[2] = "Orange";
+      console.log("veg::", vegetabes);
+
+      let dress = new Array("kurti", "frock", "chudis");
+      console.log("dres::", dress);
+
+      let icecream = ["vanilla", "butterskotch", "choco-bar"];
+      console.log("icecream::", icecream);
+
+      let numbr = ["1,2,3,4"];
+      console.log(typeof ("number::", numbr));
+
+      let FRUITS = ["mango", "grapes"];
+      console.log("myfavourite::", FRUITS);
+      let chocolates = ["45", "dairy milk", "7"];
+      console.log(chocolates);
+      chocolates[4] = "roastalmond";
+
+      //Boolean//
+      let hello = true;
+      let hi = false;
+      console.log(typeof ("message::", hello));
+      //alert//
+      let heading = "Javascript";
+      let paragraph = "it is programming language";
+      alert(paragraph);
+      console.log("display::", heading);
+      console.log("message::", paragraph);
+      <p id="hello"></p>;
+      let color = ["blue", "orange", "green"];
+      document.getElementById("hello").innerHTML = "color";
+
+      let tet = "Food";
+      document.getElementById("demo").innerHTML = tet.length;
+    </script>
+  </body>
+</html>
